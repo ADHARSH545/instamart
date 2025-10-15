@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    flex-basis: 200px;
+    height: 500px;
+    background-color: rgb(219, 133, 20);
+    box-shadow: 2px 2px 2px 2px;
+    padding: 20px;
+    border-radius: 5px;
+    /* flex-shrink: 1; */
+     position: relative;
+     transition-duration: 4s;
+}
+.card2{
+    flex-basis: 200px;
+    height: 500px;
+    background-color: rgb(219, 133, 20);
+    box-shadow: 2px 2px 2px 2px;
+    padding: 20px;
+    border-radius: 5px;
+     /* flex-shrink: 2; */
+      position: relative;
+     transition-duration: 4s;
+}
+.card3{
+   flex-basis: 200px;
+    height: 500px;
+    background-color: rgb(219, 133, 20);
+    box-shadow: 2px 2px 2px 2px;
+    padding: 20px;
+    border-radius: 5px;
+     position: relative;
+     transition-duration: 4s;
+}
+.card4{
+   flex-basis: 200px;
+    height: 500px;
+    background-color: rgb(219, 133, 20);
+    box-shadow: 2px 2px 2px 2px;
+    padding: 20px;
+    border-radius: 5px;
+     /* flex-shrink: 1; */
+     position: relative;
+     transition-duration: 4s;
+}
+.card4:hover{
+    background-color: rgb(196, 22, 22);
+    transform: rotateY(180deg);
+}
+.card3:hover{
+    background-color: rgb(196, 22, 22);
+    transform: rotateY(180deg);
+}
+.card2:hover{
+    background-color: rgb(196, 22, 22);
+    transform: rotateY(180deg);
+}
+.card:hover{
+    background-color: rgb(196, 22, 22);
+    transform: rotateY(180deg);
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+img:hover{
+    transform: scale(1.5);
+}
+h2,h3{
+    background-color: rgb(247, 151, 8);
+}
